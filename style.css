@@ -1,0 +1,112 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    line-height: normal;
+    scroll-behavior: smooth;
+}
+header{
+    background: linear-gradient(360deg, orange, #925217 );
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+
+}
+
+nav{
+    background-color: aliceblue;
+    text-align: center;
+    word-spacing: 60px;
+
+}
+
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.main{
+    margin: auto;
+
+}
+
+.main h2{
+    color: #da6e0a;
+    margin-bottom: 10px;
+}
+
+
+
+.image-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000%;
+    justify-content: space-around;
+    gap: 70px;
+    margin-right: 30px;
+}
+
+.image-gallery div{
+
+    width: 120px;
+    margin-bottom: 10px ;
+
+}
+
+
+.image-gallery img{
+    width: 200px;
+    height: 200px;
+    object-fit: center;
+    border-radius: 10px;
+
+}
+
+.main h3{
+    text-align: center;
+}
+
+
+section{
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+section h2{
+    color: #da6e0a;
+}
+
+section li{
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+footer{
+    background-color: #da6e0a;
+    padding: 10px 5px;
+    text-align: center;
+    color: white;
+}
+
+footer h2{
+    font-size: 2.5rem;
+}
+
+footer a{
+
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: larger;
+    padding: 5px;
+}
+
+footer a:hover{
+    font-size: 2em;
+}
+
